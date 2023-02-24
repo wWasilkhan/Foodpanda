@@ -1,0 +1,348 @@
+            /* <!-- <Alert> --> */
+.wel{
+    background-color:  #e21b70;
+    color: whitesmoke
+}
+.wel:hover{
+    color: whitesmoke;
+}
+.well{
+    background-color: #e21b70;
+    color: whitesmoke;
+}
+.well:hover{
+    background-color: whitesmoke;
+    color: #e21b70;
+}
+            /* <!-- Navbar --> */
+.navwel{
+    color: black
+}
+.navwel:hover{
+    color: #e21b70;
+}
+.navspan{
+    color: rgb(222, 228, 228);
+}
+.navicon{
+    color: #e21b70;
+}
+.navicon:hover{
+    color: black;
+}
+        /* <!-- Banner and Form --> */
+.banner{
+    height: 50vh;
+    background: url(banner1.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.bb{
+    margin-top: 130px;
+    width: 800px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.fbb{
+    margin-top: 50px;
+    width: 600px;
+    height: 60px;
+}
+.fbtn{
+    width: 150px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #e21b70;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: #e21b70;
+}
+.fbtn:hover{
+    background-color: whitesmoke;
+    color: #e21b70;
+}
+.or{
+    margin-top: 65px;
+    text-decoration: none;
+    color: black;
+}
+            /* <!-- Heading1 Partners --> */
+.forntheading{
+    top: 90px;
+    font-size: 30px;
+    font-weight: lighter;
+   }
+.backheading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 140px;
+    color: rgb(233, 228, 228);
+}
+            /* <!-- Banner2 with card --> */
+.banner2{
+    top: 95px;
+    height: 50vh;
+    background: url(home-vendor-pk\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.banner2 h5{
+    width: 50px;
+}
+.c1c{
+    height: 10vh;
+}
+.c1{
+    width: 50%;
+    top: -200px;
+}
+.c1 h3{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.c1 p{
+    font-weight: lighter;
+}
+.c1 button{
+    background-color: #e21b70;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 400;
+    height: 5vh;
+}
+.c1 button:hover{
+    background-color: whitesmoke;
+    color: #e21b70;
+    font-weight: 600;
+    border-radius: 5px;
+}
+            /* <!-- Heading2 Cities--> */
+.bh1{
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-weight:900;
+    font-size: 140px;
+    color: rgb(233, 228, 228);
+}
+.fh1{
+    top: 140px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.xyz{
+    /* width: 100%; */
+    margin-top: 120px; 
+}
+.col-3 img{
+    height: 28vh;
+}
+            /* <!-- Cities Card --> */
+.hovereffect{
+    border-radius: 20px;
+    width: 100%;
+    height: 28vh;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #e21b70;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 28vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .hovereffect:hover img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  .hovereffect h2 {
+    margin-top: 130px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    font-size: 25px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+  }
+  
+  .hovereffect h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  
+  .hovereffect:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  .hovereffect a, .hovereffect p {
+    color: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+  
+  .hovereffect:hover a, .hovereffect:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+            /* <!-- banner3 apps --> */
+.bh2{
+    color:  rgb(233, 228, 228);
+    font-size:140px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.fh2{
+    top: 110px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.ban{
+    position: relative;
+    margin-top: 110px;
+    height: 40vh;
+    background: #e21b70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hb2{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.hb22{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.banner3{
+    position: relative;
+    height: 70vh;
+    background: url(banner3.webp);
+    background-size: cover;
+    background-position: left;
+    bottom: 120px;
+}    
+.im{
+    margin-left: 50px;
+}
+    
+
+/* <!-- Heading3 office --> */
+.bh3{
+    color:  rgb(233, 228, 228);
+    font-size:160px;
+    font-weight: 650;
+    letter-spacing: 3px;
+}
+.fh3{
+    top: 110px;
+    font-size: 30px;
+    font-weight: lighter; 
+}
+            /* <!-- Banner4 with card --> */
+.bi{
+    margin-top: 50px;
+}            
+.banner4{
+    margin-top: 110px;
+    height: 50vh;
+    background: url(banner4.webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.cc1{
+    width: 45%;
+    top: -200px;
+}
+.cc1 h3{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.cc1 p{
+    font-size: 120%;
+    font-weight: lighter;
+}
+.cc1 button{
+    margin-left: 50%;
+    background-color: #e21b70;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 600;
+    height: 5vh;
+}
+.cc1 button:hover{
+    background-color: whitesmoke;
+    color: #e21b70;
+    font-weight: 600;
+    border-radius: 5px;
+}
+                    /* <!-- Questions --> */
+.qu{
+    margin-top: 90px;
+}
+.bui{
+    text-align: left;
+    font-weight: lighter;
+    width: 100%;
+    height: 10vh;
+}
+.bui:hover{
+    background-color: rgb(231, 230, 227);
+}
+.last{
+    font-weight: lighter;
+    text-align: center;
+    word-spacing: 5px;
+}
